@@ -1,0 +1,13 @@
+export default {
+
+  'testsFolder' : 'e2e_tests/tcafe/tests/',   //test directory
+  'browser': ["saucelabs:iPad Simulator@11.1","saucelabs:Samsung Galaxy S8 WQHD GoogleAPI Emulator@7.1","saucelabs:iPhone X Simulator@11.3","saucelabs:Chrome@64.0:OS X 10.10","saucelabs:Safari","saucelabs:Internet Explorer","saucelabs:Firefox"],                      //can be all(installed locally)or specific ['safari', 'chrome', 'firefox',ie]
+  'report': 'xunit',                           // can be json, xunit
+  'skipCriticalConsoleJsErrors': true,            // skip console critical js errors, if false test will fail if there will be any critical js error
+  'quarantineMode': false,                       // if true , test cafe will retry the test to be more consistent.
+  'speed': 0.4,                                    // how fast you want to execute testcafe range <0.1 -1.0>, keep it low to simulate actual user behaviour
+  'selectorTimeOut': 8000,                        // 8 sec
+  'assertionTimeout': 8000,                          // 8 sec
+  'screenshots' : 'reports/screenshots/' ,           // where do you want to save failed tests screen shots
+  'concurrency' : 1,                              // how many tests you want to run in parallel
+}
