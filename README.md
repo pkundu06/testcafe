@@ -28,3 +28,4 @@ also change your browser/s here: localConfig.json:
   </br>
   then same commmand <b> node testrunner.js </b>
 </p>
+[test cafe FAQ](https://www.devexpress.com/Support/Center/Question/List/1)
