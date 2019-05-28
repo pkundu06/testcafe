@@ -1,4 +1,4 @@
-# tcafe
+# TestCafe framework to test React Apps
 [test cafe FAQ](https://www.devexpress.com/Support/Center/Question/List/1)
 
 <b>To install: npm install </b> </br>
